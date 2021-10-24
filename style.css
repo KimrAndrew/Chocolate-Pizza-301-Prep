@@ -20,3 +20,9 @@ header {
     height: 15px;
     background-image: url(assets/hr-img.png);
 }
+#list {
+    background-image: url(assets/list-bg.png);
+}
+#list td {
+    max-width: 250px;
+}
