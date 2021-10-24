@@ -21,10 +21,17 @@ header {
     background-image: url(assets/hr-img.png);
 }
 #list {
-    background-image: url(assets/list-bg.png);
+    height:326px;
+}
+#list img{
+    width: 960px;
 }
 #list td {
+    line-height: 32px;
     max-width: 250px;
+}
+.left {
+    padding-right: 200px;
 }
 article p {
     font-size: 20px;
@@ -32,3 +39,10 @@ article p {
     margin: 30px 0 30px;
     line-height: 24px;
 }
+table {
+    position: relative;
+    bottom: 288px;
+    margin-left: 50px;
+    font-size: 24px;
+}
+
