@@ -25,8 +25,8 @@ header {
     font-style: italic;
 }
 #branding h4 {
-    font-family: monospace;
-    font-size: 12px;
+    font-family: sans-serif;
+    font-size: 10px;
 }
 #rss {
     padding-left: 10px;
@@ -35,7 +35,8 @@ header {
     width: 960px;
     height: 15px;
     background-image: url(assets/hr-img.png);
-    margin-bottom: 30px;    
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 #article-heading {
     margin-bottom: 30px;
@@ -43,7 +44,7 @@ header {
 }
 #article-info {
     display: inline-block;
-    margin-right: 599px;
+    margin-right: 598px;
 }
 #article-info h1 {
     font-weight: bolder;
@@ -51,8 +52,8 @@ header {
     font-family: sans-serif;
 }
 #article-info h2 {
-    font-size: 12px;
-    font-family: monospace;
+    font-size: 10px;
+    font-family: sans-serif;
     color: gray;
 }
 #print {
@@ -61,6 +62,7 @@ header {
 #print span {
     font-size: 12px;
     color: gray;
+    font-family: sans-serif;
 }
 #main-img {
     width: 960px;
@@ -78,18 +80,62 @@ header {
 .left {
     padding-right: 200px;
 }
-article p {
+p {
     font-size: 20px;
+    color: gray;
+    line-height: 24px;
+}
+article p{
     text-indent: 30px;
     margin: 30px 0 30px;
-    line-height: 24px;
     font-family: 'IBM plex serif';
-    color: gray;
 }
 table {
     position: relative;
     bottom: 288px;
     margin-left: 50px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+#about-container {
+    margin-bottom: 60px;
+}
+
+#about-text {
+    display:inline-block;
+    padding-left: 10px;
+    max-width: 600px;
+    margin-right: 71px;
+}
+#about-text h5 {
     font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#about-author {
+    display: inline-block;
+}
+footer button {
+    position:relative;
+    width: 200px;
+    height: 65px;
+    bottom: 35px;
+    background-color: orangered;
+    border: none;
+    color:white;
+    border-radius: 5%;
+    font-size: 16px;
+}
+#logo-container {
+    text-align: center;
+    margin-bottom: 30px;
+}
+#footer-info {
+    text-align: center;
+    padding-bottom: 10px;
+}
+#footer-info p {
+    font-size: 16px;
 }
 
